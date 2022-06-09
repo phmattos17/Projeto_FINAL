@@ -54,7 +54,7 @@ def lin_reg(df, target, estado, serie, colunas,predict_values):
     #descomentar linha abaixo caso queira ver o sumário da  regressão
     #st.write(regressao.summary())
 
-    st.write(regressao.predict(predict_values))
+    st.write(f'A taxa de evasão esperada é de {float(regressao.predict(predict_values)):.2f} %')
 
 
 
