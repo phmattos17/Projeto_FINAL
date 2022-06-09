@@ -1,0 +1,1 @@
+web: sh setup.sh && sstreamlit run projeto_evasao_st.py
